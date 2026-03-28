@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
                 editTextKQ.setText(String.valueOf(kq));
             }
         };
-
         nutCong.setOnClickListener(boLangNgheCong);
 
         nutTru.setOnClickListener(new View.OnClickListener() {
