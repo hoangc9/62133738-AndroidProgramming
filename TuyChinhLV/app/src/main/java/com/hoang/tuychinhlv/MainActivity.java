@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
         MonAnAdapter adapter = new MonAnAdapter(this, dsMonAn);
         lvDSMonAn.setAdapter(adapter);
-
-// Bắt xử lý sự kiện
         lvDSMonAn.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
