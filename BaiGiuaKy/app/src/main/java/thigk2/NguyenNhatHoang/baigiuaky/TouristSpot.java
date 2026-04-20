@@ -1,11 +1,11 @@
 package thigk2.NguyenNhatHoang.baigiuaky;
 
-public class DiemDuLich {
+public class TouristSpot {
     private String ten;
     private String diaChi;
     private int hinhAnh; // drawable resource id
 
-    public DiemDuLich(String ten, String diaChi, int hinhAnh) {
+    public TouristSpot(String ten, String diaChi, int hinhAnh) {
         this.ten = ten;
         this.diaChi = diaChi;
         this.hinhAnh = hinhAnh;
