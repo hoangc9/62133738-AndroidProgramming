@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:textColor="#333333"/>
+
+    <Button
+        android:id="@+id/btnFeature1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Tính Chu Vi Và Diện Tích"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50"/>
+
+    <Button
+        android:id="@+id/btnFeature2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Tên các tỉnh / thành phố"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2196F3"/>
+
+    <Button
+        android:id="@+id/btnFeature3"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Các điểm du lịch ở Nha Trang"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF9800"/>
+
+    <Button
+        android:id="@+id/btnFeature4"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Thông tin cá nhân sinh viên"
+        android:backgroundTint="#9C27B0"/>
+
+</LinearLayout>
