@@ -23,7 +23,7 @@ public class Feature1Activity extends AppCompatActivity {
             String strRong = edtRong.getText().toString().trim();
 
             if (strDai.isEmpty() || strRong.isEmpty()) {
-                Toast.makeText(this, "Vui lòng nhập đầy đủ!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Vui long nhap day du", Toast.LENGTH_SHORT).show();
                 return;
             }
 
